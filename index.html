@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="header-title">BUTTON GENERATOR</h1>
+    <p id="header-para">
+      Generate your custom button and use it in your web application.
+    </p>
+    <div id="main-card">
+      <div class="button-wrap">
+        <button id="button-preview">Your button</button>
+      </div>
+      <div id="style-wrapper">
+        <div class="style">
+          <span>Button Label:</span>
+          <input type="text" id="button-label" class="inputs" />
+        </div>
+        <div class="style">
+          <span>Font Size:</span>
+          <input type="text" id="button-fontSize" class="small inputs" />
+        </div>
+        <div class="style">
+          <span>Font Color:</span>
+          <input type="color" id="button-fontColor" class="inputs" />
+        </div>
+        <div class="style">
+          <span>Padding-Top-Right-Bottom-Left:</span>
+          <span
+            ><input type="text" id="padding-top" class="small inputs"
+          /></span>
+          <span>-</span>
+          <span
+            ><input type="text" id="padding-right" class="small inputs"
+          /></span>
+          <span>-</span>
+          <span
+            ><input type="text" id="padding-bottom" class="small inputs"
+          /></span>
+          <span>-</span>
+          <span
+            ><input type="text" id="padding-left" class="small inputs"
+          /></span>
+        </div>
+        <div class="style">
+          <span>Background Color:</span>
+          <input type="color" id="button-bgColor" class="inputs" />
+        </div>
+        <div class="style">
+          <span>Border Color:</span>
+          <input type="color" id="button-borderColor" class="inputs" />
+        </div>
+        <div class="style">
+          <span>Border Width:</span>
+          <input type="text" id="button-borderWidth" class="small inputs" />
+        </div>
+        <div class="style">
+          <span>Border Radius:</span>
+          <input type="text" id="button-borderRadius" class="small inputs" />
+        </div>
+      </div>
+
+      <div class="button-wrap">
+        <button id="generator">Generate Code</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
