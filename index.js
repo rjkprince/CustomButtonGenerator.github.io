@@ -40,17 +40,17 @@ for (let i = 0; i < inputs.length; i++) {
 generator.addEventListener('click', function () {
   var yourBtn = 'HTML => <button id="custom">' + button.innerText + '</button>';
   var customCss =
-    'CSS => #custom{font-size:' +
+    'CSS => #custom{ \n font-size:' +
     button.style.fontSize +
-    '; color:' +
-    button.style.fontColor +
-    '; padding:' +
+    '; \n color:' +
+    button.style.color +
+    '; \n padding:' +
     button.style.padding +
-    '; background-color:' +
+    '; \n background-color:' +
     button.style.backgroundColor +
-    '; border:' +
+    '; \n border:' +
     button.style.border +
-    '; border-radius:' +
+    '; \n border-radius:' +
     button.style.borderRadius +
     ';}';
   alert(yourBtn + '\n' + customCss);
