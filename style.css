@@ -72,3 +72,8 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  #main-card {
+    max-height: 950px;
+  }
+}
