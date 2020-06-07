@@ -60,5 +60,15 @@ body {
   width: 60px;
 }
 #generator {
-  margin-bottom: 20px;
+  margin-top: -20px;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(60, 255, 0);
+  box-shadow: 0 0 20px rgb(60, 255, 0);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
